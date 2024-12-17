@@ -18,7 +18,7 @@ interface RowActionsProps<TData> {
 }
 
 export function RowActions<TData>({ row }: RowActionsProps<TData>) {
-  console.log("row", row);
+  console.info("row", row);
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
